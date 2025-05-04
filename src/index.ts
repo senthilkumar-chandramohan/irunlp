@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 // Configure middleware
 app.use(cors({
-  origin: ["http://localhost:5173","https://foodtoken-web.vercel.app"]
+  origin: ["http://localhost:5173","https://irunlp-client.vercel.app"]
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
